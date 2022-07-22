@@ -33,3 +33,7 @@ https://user-images.githubusercontent.com/100198704/180422646-84dbcf8c-f15a-4a90
 
 https://user-images.githubusercontent.com/100198704/180422681-af51afea-3818-4b78-9bce-656de6f01a3e.mp4
 
+**Further improvements**:
+- each agent compute the bearings relative to neighbors only
+- the uniqueness of the formation is verified in a reliable way also in the letters case
+- control with integral action
