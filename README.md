@@ -17,6 +17,14 @@ Formation types:
 - `letters`              <--- the agents forms, one, after the other, the letters of the word BALA
 - `moving_square_circle` <--- square formation, leaders move following circular pattern (TIME-VARYING LEADERS VELOCITY CASE)
 
+To compile and execute:
+```
+source /opt/ros/foxy/setup.bash
+cd ROS2_bearing_formation/
+. install/setup.bash
+colcon build && ros2 launch my_bearing_formation bearing_formation.launch.py
+```
+
 **Visualization**: each simulation will generate a *csv file* for each agent, by executing the *plot_cvs.py* file these files are read and the trajectories are plotted using matplotlib.
 For alle the formation types except letters, also Rviz visualizaion is available during the simulation execution.
 
