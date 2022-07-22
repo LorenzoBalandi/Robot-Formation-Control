@@ -20,7 +20,6 @@ Formation types:
 To compile and execute:
 ```
 source /opt/ros/foxy/setup.bash
-cd ROS2_bearing_formation/
 . install/setup.bash
 colcon build && ros2 launch my_bearing_formation bearing_formation.launch.py
 ```
